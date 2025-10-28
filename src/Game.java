@@ -13,7 +13,6 @@ class Game {
 		return number1 > number2;
 	}
 	
-	
 	/**
 	 * Asks the player whether they want to play the game.
 	 * Keeps prompting until the user enters "oui" or "non".
@@ -33,7 +32,6 @@ class Game {
 		    userInput = scan.next().toLowerCase().trim();
 		}
 		return userInput;
-		
 	}
 	
 	/**
@@ -65,10 +63,8 @@ class Game {
 					System.out.println("Le nombre doit être compris entre 1 et 100 inclus.");
 					continue;
 				}
-				
 				break; 
 			}
-			
 			return number;
 	}
 		
